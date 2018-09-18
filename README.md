@@ -1,5 +1,5 @@
 
-# react-native-ali
+# rn-arno-alipay
 
 [![NPM Version](https://img.shields.io/npm/v/@0x5e/react-native-alipay.svg)](https://npmjs.org/package/@0x5e/react-native-alipay)
 [![Dependency Status](https://img.shields.io/david/0x5e/react-native-alipay.svg)](https://david-dm.org/0x5e/react-native-alipay)
@@ -29,7 +29,7 @@ Native AlipaySDK library ([download page](https://docs.open.alipay.com/54/104509
 
 ## Getting started
 
-`$ yarn add react-native-ali`
+`$ yarn add rn-arno-alipay`
 
 ### Native module installation
 
@@ -71,7 +71,7 @@ Example code:
 
 ```javascript
 import QueryString from 'query-string';
-import Alipay from 'react-native-ali';
+import Alipay from 'rn-arno-alipay';
 
 // 快捷登录授权
 try {
@@ -118,7 +118,7 @@ The `result` data has following fields:
 Example code:
 
 ```javascript
-import Alipay from 'react-native-ali';
+import Alipay from 'rn-arno-alipay';
 
 // APP支付
 try {
@@ -150,7 +150,7 @@ Returns object with following fields:
 Example code:
 
 ```javascript
-import Alipay from 'react-native-ali';
+import Alipay from 'rn-arno-alipay';
 
 // 手机网站转APP支付
 try {
@@ -178,7 +178,7 @@ Returns The query string with signature. See [Process of signature](https://docs
 Example code:
 
 ```javascript
-import Alipay from 'react-native-ali';
+import Alipay from 'rn-arno-alipay';
 
 // 签名
 let params = {
