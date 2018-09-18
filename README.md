@@ -71,7 +71,7 @@ Example code:
 
 ```javascript
 import QueryString from 'query-string';
-import Alipay from '@0x5e/react-native-alipay';
+import Alipay from 'react-native-ali';
 
 // 快捷登录授权
 try {
@@ -118,7 +118,7 @@ The `result` data has following fields:
 Example code:
 
 ```javascript
-import Alipay from '@0x5e/react-native-alipay';
+import Alipay from 'react-native-ali';
 
 // APP支付
 try {
@@ -150,7 +150,7 @@ Returns object with following fields:
 Example code:
 
 ```javascript
-import Alipay from '@0x5e/react-native-alipay';
+import Alipay from 'react-native-ali';
 
 // 手机网站转APP支付
 try {
@@ -178,7 +178,7 @@ Returns The query string with signature. See [Process of signature](https://docs
 Example code:
 
 ```javascript
-import Alipay from '@0x5e/react-native-alipay';
+import Alipay from 'react-native-ali';
 
 // 签名
 let params = {
