@@ -1,5 +1,5 @@
 
-# react-native-alipay
+# react-native-ali
 
 [![NPM Version](https://img.shields.io/npm/v/@0x5e/react-native-alipay.svg)](https://npmjs.org/package/@0x5e/react-native-alipay)
 [![Dependency Status](https://img.shields.io/david/0x5e/react-native-alipay.svg)](https://david-dm.org/0x5e/react-native-alipay)
@@ -29,7 +29,7 @@ Native AlipaySDK library ([download page](https://docs.open.alipay.com/54/104509
 
 ## Getting started
 
-`$ yarn add @0x5e/react-native-alipay`
+`$ yarn add react-native-ali`
 
 ### Native module installation
 
